@@ -23,6 +23,14 @@
     float:left;
 }
 
+#parts h3
+{
+    background-color:#ffda40;
+    padding-left:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
 ul
 {
     list-style-type:none;
