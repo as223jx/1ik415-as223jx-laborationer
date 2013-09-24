@@ -53,6 +53,14 @@ ul
     list-style-type:none;
 }
 
+#laborationdiv h3
+{
+    background-color:#ffda40;
+    padding-left:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
 #content
 {
     font-size:14px;
@@ -95,6 +103,23 @@ body
 {
     margin:15px;
     font-size:14px;
+}
+
+/* Tabellen */
+
+thead
+{
+    background-color:#378de5;
+}
+
+tbody
+{
+    background-color:#fff;
+}
+
+tfoot
+{
+    background-color:#ffda40;
 }
 
 /* Länkar för navigationen */
