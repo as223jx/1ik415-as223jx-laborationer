@@ -31,6 +31,23 @@
     padding-bottom:5px;
 }
 
+#videodiv
+{
+    height:360px;
+}
+
+.right
+{
+    float:right;
+    margin:10px;
+}
+
+.left
+{
+    float:left;
+    margin:10px;
+}
+
 ul
 {
     list-style-type:none;
@@ -92,7 +109,6 @@ body
     color:#000;
     background-color:#a68600;
     padding:5px;
-    
     text-decoration:none;
 }
 
