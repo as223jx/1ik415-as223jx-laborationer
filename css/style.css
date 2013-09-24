@@ -3,30 +3,70 @@
     width:1200px;
     margin-left: auto;
     margin-right: auto;
-    border-style:solid;
-    border-width:1px;
+    background-color: #fff;
 }
 
 #header
 {
-    width:1200px;
-    height:150px;
-    border-style:solid;
-    border-width:1px;
+    width:1190px;
+    height:120px;
+    background-color:#ffda40;
+    padding-top:10px;
+    padding-left:10px;
 }
 
 #navigation
 {
     width:200px;
     float:left;
-    border-style:solid;
-    border-width:1px;
+}
+
+ul
+{
+    list-style-type:none;
+}
+
+#navigation li
+{
+    margin-top:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    padding:5px;
+    background-color:#a68600;
 }
 
 #content
 {
-    width:1000px;
+    width:980px;
     margin-left:200px;
-    border-style:solid;
-    border-width:1px;
+    background-color:#fff;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
 }
+
+#Alexandra
+{
+    width:150px;
+    float:left;
+    margin-right:10px;
+}
+
+#footer
+{
+    padding-left:5px;
+    padding-bottom:1px;
+    padding-top:1px;
+    background-color:#644ad8;
+}
+
+body
+{
+    background-color:#ccc;
+}
+
+a:link { color:#000; }
+a:visited { color:#303030; }
+a:focus { color:#000; }
+a:hover { color:#5c5c5c; }
+a:active { color:#000; }
