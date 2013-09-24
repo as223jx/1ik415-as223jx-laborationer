@@ -1,5 +1,6 @@
 #container
 {
+    font-family:arial;
     width:1200px;
     margin-left: auto;
     margin-right: auto;
@@ -8,11 +9,12 @@
 
 #header
 {
-    width:1190px;
+    font-size:20px;
+    width:1170px;
     height:120px;
     background-color:#ffda40;
     padding-top:10px;
-    padding-left:10px;
+    padding-left:30px;
 }
 
 #navigation
@@ -28,6 +30,8 @@ ul
 
 #content
 {
+    font-size:14px;
+    line-height:20px;
     width:980px;
     margin-left:200px;
     background-color:#fff;
@@ -64,6 +68,7 @@ body
 #navigation li
 {
     margin:15px;
+    font-size:14px;
 }
 
 /* Länkar för navigationen */
@@ -108,12 +113,12 @@ body
 
 #content a:link 
 { 
-    color:#000; 
+    color:#CCBA41; 
 }
 
 #content a:visited 
 { 
-    color:#303030; 
+    color:#a68600;
 }
 
 #content a:focus 
