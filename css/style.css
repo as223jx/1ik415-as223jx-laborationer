@@ -33,7 +33,7 @@
 
 #videodiv
 {
-    height:360px;
+    height:380px;
 }
 
 .right
@@ -90,7 +90,6 @@ ul
 
 body
 {
-    background-image:url('../Pics/alexandra.png');
     background-color:#ccc;
 }
 
@@ -104,6 +103,22 @@ body
     margin:15px;
     font-size:14px;
 }
+
+/* Formulären */
+
+form
+{
+    width:400px;
+    background-color:#DBDBDB;
+    border-style:solid;
+    border-width:1px;
+    border-color:#378de5;
+}
+#skicka
+{
+    background-color:#ffda40;
+}
+
 
 /* Tabellen */
 
