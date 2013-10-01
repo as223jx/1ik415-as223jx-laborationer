@@ -200,3 +200,8 @@ tfoot
 { 
     color:#000; 
 }
+
+#printonly
+{
+    display:none;
+}
