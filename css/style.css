@@ -19,10 +19,11 @@
 
 
 
-#navigation
+#navigation, nav
 {
     width:200px;
     float:left;
+    background-color:#fff;
 }
 
 #parts h3
@@ -97,12 +98,7 @@ body
     background-color:#ccc;
 }
 
-#navigation
-{
-    background-color:#fff;
-}
-
-#navigation li
+#navigation li, nav li
 {
     margin:15px;
     font-size:14px;
