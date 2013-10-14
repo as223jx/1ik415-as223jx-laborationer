@@ -7,7 +7,7 @@
     background-color: #fff;
 }
 
-#header
+header
 {
     font-size:20px;
     width:1170px;
@@ -66,6 +66,7 @@ ul
     font-size:14px;
     line-height:20px;
     width:980px;
+    max-width:100%;
     margin-left:200px;
     background-color:#fff;
     padding-left:10px;
