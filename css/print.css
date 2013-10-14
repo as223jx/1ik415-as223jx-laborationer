@@ -1,0 +1,183 @@
+@media print {
+    #container
+{
+    font-family:arial;
+    width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+header
+{
+    font-size:20px;
+    width:1170px;
+    height:120px;
+    background-color:#ffda40;
+    padding-top:10px;
+    padding-left:30px;
+}
+
+#navigation
+{
+   display:none;
+}
+
+#parts h3
+{
+    background-color:#ffda40;
+    padding-left:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+#videodiv
+{
+    height:380px;
+}
+
+.right
+{
+    float:right;
+    margin:10px;
+}
+
+.left
+{
+    float:left;
+    margin:10px;
+}
+
+ul
+{
+    list-style-type:none;
+}
+
+#laborationdiv h3
+{
+    background-color:#ffda40;
+    padding-left:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+#content
+{
+    font-size:14px;
+    line-height:20px;
+    width:980px;
+    background-color:#fff;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
+#Alexandra
+{
+    width:150px;
+    float:left;
+    margin-right:10px;
+}
+
+footer
+{
+    padding-left:5px;
+    padding-bottom:1px;
+    padding-top:1px;
+    background-color:#378de5;
+}
+
+body
+{
+    background-color:#ccc;
+}
+
+#navigation
+{
+    background-color:#fff;
+}
+
+#navigation li
+{
+    margin:15px;
+    font-size:14px;
+}
+
+/* Formulären */
+
+form
+{
+    width:400px;
+    background-color:#DBDBDB;
+    border-style:solid;
+    border-width:1px;
+    border-color:#378de5;
+}
+#skicka
+{
+    background-color:#ffda40;
+}
+
+
+/* Tabellen */
+
+thead
+{
+    background-color:#378de5;
+}
+
+tbody
+{
+    background-color:#fff;
+}
+
+tfoot
+{
+    background-color:#ffda40;
+}
+
+/* Länkar för navigationen */
+
+#active:link
+{
+    background-color:#ffda40;
+}
+
+.active:link
+{
+    color:#000;
+    background-color:#a68600;
+    padding:5px;
+    text-decoration:none;
+}
+
+.active:visited
+{
+    color:#303030;
+    text-decoration:none;
+}
+
+.active:focus
+{
+    color:#000;
+}
+
+.active:hover 
+{
+	background-color:#378de5;
+    text-decoration:none;
+}
+.active:active 
+{
+	background-color:#378de5;
+    text-decoration:none;
+}
+
+/* Länkar inom content */
+
+
+#noprintlinks
+{
+    display:none;
+}
+}
