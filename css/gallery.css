@@ -1,24 +1,55 @@
+@font-face
+{
+	font-family: "JennaSue";
+	src: url('../JennaSue.ttf') format("truetype");
+}
+
 .images a
 {
+    font-family: "JennaSue";
+    background-color:#fff;
     position:relative;
+    width:200px;
     display: inline;
     float:left;
     padding-top:10px;
     padding-bottom:20px;
     padding-right:10px;
     padding-left:10px;
-    margin:30px;
+    margin-top:40px;
+    margin-left:50px;
     text-align: center;
-    -webkit-transition: width .3s;
-	-moz-transition: width .3s;
-	transition: width .3s;
+    -o-transition: .2s linear;
+    -webkit-transition: .2s linear;
+	-moz-transition: .2s linear;
+	transition: .2s linear;
+    -o-box-shadow: .2s linear;
     -moz-box-shadow: 1px 3px 10px #888;
     -webkit-box-shadow: 1px 3px 10px #888;
     box-shadow: 1px 3px 10px #888;
+	text-decoration:none;
+	font-size:20px;
+	color:#000;
+	z-index:auto;
+	position:relative;
+}
+
+.images a:after
+{
+	content: attr(title);
+	position:relative;
+	top:10px;
+}
+
+.images img 
+{ 
+	display: block; 
+	width: inherit; 
 }
 
 .images a:nth-child(1n)
 {
+    -o-transform: rotate(20deg)
     -webkit-transform: rotate(20deg); 
 	-moz-transform: rotate(20deg);
     transform: rotate(20deg);
@@ -26,20 +57,48 @@
 
 .images a:nth-child(2n)
 {
-    -webkit-transform: rotate(40deg); 
-	-moz-transform: rotate(40deg);
-    transform: rotate(40deg);
+    -o-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg); 
+	-moz-transform: rotate(30deg);
+    transform: rotate(30deg);
 }
 
-.images a:nth-child(2n)
+.images a:nth-child(3n)
 {
-    -webkit-transform: rotate(-40deg); 
-	-moz-transform: rotate(-40deg);
-    transform: rotate(-40deg);
+    -o-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg); 
+	-moz-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.images a:nth-child(4n)
+{
+    -o-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg); 
+	-moz-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+.images a:nth-child(5n)
+{
+    -o-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg); 
+	-moz-transform: rotate(-10deg);
+    transform: rotate(-10deg);
 }
 
 .images a:hover
 {
+    -o-transform: scale(1.3);
+    -webkit-transform: scale(1.3); 
+	-moz-transform: scale(1.3);
+    transform: scale(1.3);
+    z-index:auto;
+}
+
+.images a:focus
+{
+    -o-transform: scale(1.3);
     -webkit-transform: scale(1.3); 
 	-moz-transform: scale(1.3);
     transform: scale(1.3);
