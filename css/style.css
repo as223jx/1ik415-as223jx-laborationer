@@ -17,7 +17,10 @@
     padding-left:30px;
 }
 
-
+.photo
+{
+    width:95px;
+}
 
 #navigation, nav
 {
