@@ -27,6 +27,7 @@
     width:200px;
     float:left;
     background-color:#fff;
+    
 }
 
 #parts h3
@@ -37,10 +38,7 @@
     padding-bottom:5px;
 }
 
-#videodiv
-{
-    height:380px;
-}
+
 
 .right
 {
