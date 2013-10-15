@@ -1,0 +1,57 @@
+#container, main
+{
+    max-width:100%;
+}
+
+#navigation, nav
+{
+    float:none;
+    width:481px;
+    max-width:100%;
+}
+
+#navigation li, nav li
+{
+    width:481px;
+    max-width:100%;
+    float:none;
+    padding:5px;
+}
+
+#content
+{
+    max-width:100%;
+    float:none;
+    margin-left:0px;
+}
+
+#content h2
+{
+    margin-top:50px;
+}
+
+#navigation ul, nav ul
+{
+    padding:0px;
+}
+
+#header, header
+{
+    max-width:100%;
+    font-size:16px;
+}
+
+img
+{
+    max-width:100%;
+}
+
+video
+{
+    max-width:100%;
+}
+
+svg
+{
+    max-width:100%;
+}
